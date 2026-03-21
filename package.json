@@ -1,0 +1,15 @@
+{
+  "name": "service",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8080",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "hono": "4.12.8"
+  },
+  "devDependencies": {
+    "prettier": "3.8.1",
+    "wrangler": "4.4.0"
+  }
+}
