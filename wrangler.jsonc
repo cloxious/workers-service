@@ -3,4 +3,5 @@
   "name": "service",
   "main": "src/index.ts",
   "compatibility_date": "2026-03-21",
+  "routes": [{ "pattern": "service.cloxious.com", "custom_domain": true }],
 }
